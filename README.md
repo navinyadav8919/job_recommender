@@ -1,14 +1,7 @@
 
----
-
-### ✅ `README.md`
-
-```markdown
 # 💼 AI Job Recommender System
 
 An intelligent, AI-powered job recommender system that analyzes resume text and suggests the most suitable job role. It combines NLP, unsupervised clustering, and supervised machine learning to provide accurate career predictions and skill gap analysis.
-
----
 
 ## 🚀 Features
 
@@ -19,7 +12,6 @@ An intelligent, AI-powered job recommender system that analyzes resume text and 
 - ⚡ **Skill Gap Analyzer** comparing user skills with job role expectations
 - 🌐 **Streamlit Web App Interface**
 
----
 
 ## 🛠️ Tech Stack
 
@@ -32,11 +24,9 @@ An intelligent, AI-powered job recommender system that analyzes resume text and 
 | DevOps | Git, GitHub |
 | Others | pandas, scikit-learn, joblib |
 
----
 
 ## 📁 Folder Structure
 
-```
 
 job\_recommender/
 │
@@ -63,9 +53,6 @@ job\_recommender/
 ├── requirements.txt
 └── README.md
 
-````
-
----
 
 ## 🧪 How It Works
 
@@ -75,51 +62,40 @@ job\_recommender/
 4. A **RandomForest classifier** is trained using the cluster + TF-IDF features
 5. User enters resume in the app → prediction + skill-gap
 
----
-
 ## 📦 Installation
 
 1. **Clone the repository**
-```bash
+
 git clone https://github.com/navinyadav8919/job_recommender.git
 cd job_recommender
-````
 
 2. **Create virtual environment**
 
-```bash
 python -m venv env
 env\Scripts\activate  # Windows
-```
+
 
 3. **Install requirements**
 
-```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-```
+
 
 4. **Run the app**
 
-```bash
 cd app
 streamlit run app.py
-```
 
----
 
 ## 🔍 Example Resume Input
 
-```
 I am experienced in Python, pandas, scikit-learn, and machine learning. I’ve built models using supervised and unsupervised learning and worked on data cleaning and visualization.
-```
 
 🧠 Output:
 
 * ✅ Recommended Job Role: `data science`
 * ⚠️ Skill Gap: `sql, deep learning`
 
----
 
 ## 📈 Future Improvements
 
@@ -128,26 +104,19 @@ I am experienced in Python, pandas, scikit-learn, and machine learning. I’ve b
 * Integrate job posting APIs
 * Support PDF resume uploads
 
----
 
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
 
----
+
 
 ## 📄 License
 
 MIT License
 
----
-
 ## 📬 Contact
 
 * **Author**: Naveen Yadav
 * **GitHub**: [@navinyadav8919](https://github.com/navinyadav8919)
-
----
-
-````
 
